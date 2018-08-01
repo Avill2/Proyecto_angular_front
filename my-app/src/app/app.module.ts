@@ -6,16 +6,15 @@ import { AppComponent } from './app.component';
 import { ReservaRestauranteComponent } from './reserva-restaurante/reserva-restaurante.component';
 
 import { ReservaHotelComponent } from './reserva-hotel/reserva-hotel.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-
-    ReservaRestauranteComponent
-
-    ReservaHotelComponent
-
+    ReservaRestauranteComponent,
+    ReservaHotelComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule
