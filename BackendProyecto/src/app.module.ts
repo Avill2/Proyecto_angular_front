@@ -28,7 +28,7 @@ import {ReservasEntity} from "./Reservas/reservas.entity";
           synchronize: true,
           //ssl: true,
       }),
-      TypeOrmModule.forFeature([ReservasEntity,DetallereservaEntity,LugaresEntity,UsuarioEntity])
+      TypeOrmModule.forFeature([ReservasEntity, DetallereservaEntity, LugaresEntity, UsuarioEntity]),
   ],
   controllers: [
       AppController,
@@ -41,7 +41,7 @@ import {ReservasEntity} from "./Reservas/reservas.entity";
       AppService,
       DetallereservasService,
       LugaresService,
-      UsuarioService
+      UsuarioService,
      ],
 })
 
