@@ -9,6 +9,7 @@ import { ReservaHotelComponent } from './reserva-hotel/reserva-hotel.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { ForgotpassComponent } from './forgotpass/forgotpass.component';
+import { ReserpassComponent } from './reserpass/reserpass.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { ForgotpassComponent } from './forgotpass/forgotpass.component';
     LoginComponent,
     RegistroComponent,
     ForgotpassComponent,
+    ReserpassComponent,
   ],
   imports: [
     BrowserModule
