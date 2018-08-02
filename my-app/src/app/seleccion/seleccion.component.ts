@@ -1,14 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  selector: 'app-seleccion',
+  templateUrl: './seleccion.component.html',
+  styleUrls: [
+    './seleccion.component.css'
+  ]
 })
-export class LoginComponent implements OnInit {
-
-
-
+export class SeleccionComponent {
+  title = 'my-app1';
   // Interpolacion
   mostrarComponente = false;
   contadorDesdePapa = 0;
@@ -60,8 +60,6 @@ export class LoginComponent implements OnInit {
   ];
 
 
-
-
   titulo = 'Web';
   usuario = {
     nombre: 'Adrian',
@@ -95,9 +93,6 @@ export class LoginComponent implements OnInit {
     this.contadorDesdePapa = contadorHijo;
   }
 
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }
+

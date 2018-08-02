@@ -1,4 +1,3 @@
-
 import {Component, EventEmitter, Input, OnChanges, OnDestroy, OnInit, Output} from '@angular/core';
 
 @Component({
@@ -51,6 +50,4 @@ export class InicioComponent implements OnInit, OnDestroy, OnChanges {
   seleccionoUsuario() {
     console.log('Selecciono', this.texto);
     this.selecciono.emit(this.texto);
-  }
-
-}
+  }}

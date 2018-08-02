@@ -5,12 +5,12 @@ import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
 
 import { ReservaRestauranteComponent } from './reserva-restaurante/reserva-restaurante.component';
-import { InicioComponent } from './inicio/inicio.component';
+//import { InicioComponent } from './inicio/inicio.component';
 
 import { ReservaHotelComponent } from './reserva-hotel/reserva-hotel.component';
 import { LoginComponent } from './login/login.component';
-
-
+import { SeleccionComponent } from './seleccion/seleccion.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import { LoginComponent } from './login/login.component';
     ReservaRestauranteComponent,
     ReservaHotelComponent,
     LoginComponent,
-    InicioComponent
+    SeleccionComponent,
+    InicioComponent,
   ],
   imports: [
     BrowserModule,
